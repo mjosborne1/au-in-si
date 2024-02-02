@@ -1,3 +1,8 @@
+# What does it do?
+Given a file of SNOMED CT codes that have been promoted to the International version of SNOMED CT
+and a file containing ValueSet URLS, check the ValueSet to see which SNOMED CT concepts have been promoted (if any)
+
+
 # How to use this script
 
 ### Set up a python virtual environment
