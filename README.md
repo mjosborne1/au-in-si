@@ -47,3 +47,18 @@ e.g.
 ```
    python main.py -u /data/ncts-vs.txt -s /data/sctau-in-si.txt > ./output.txt
 ```
+
+### Full help 
+run python main.py -h
+
+```
+   usage: main.py [-h] [-u URLFILE] [-s SCTFILE]
+
+   optional arguments:
+     -h, --help            show this help message and exit
+     -u URLFILE, --urlfile URLFILE
+                           file of valueset urls
+     -s SCTFILE, --sctfile SCTFILE
+                           file of SNOMED CT codes
+
+```
